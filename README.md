@@ -65,8 +65,13 @@ Gazzini_Spirits/
 │   │           ├── main.js               # JavaScript principale
 │   │           └── navigation.js         # Menu navigazione
 │   └── plugins/
-│       └── gazzini-products-setup.php    # Plugin setup prodotti
+│       ├── gazzini-products-setup.php    # Plugin setup prodotti
+│       ├── gazzini-age-verification.php  # 🔞 Plugin verifica età +18
+│       ├── age-verification.css          # Stili age gate
+│       └── age-verification.js           # JavaScript age gate
 ├── SETUP.md                              # Guida setup completa
+├── INSTALLAZIONE.md                      # Installazione su WP esistente
+├── VERIFICA-ETA.md                       # 🔞 Guida verifica età
 └── README.md                             # Questo file
 ```
 
@@ -99,11 +104,17 @@ cp -r Gazzini_Spirits/* /tuo/percorso/wordpress/
 
 # 6. Configura prodotti
 # WP Admin → Gazzini Setup → Avvia Setup Prodotti
+
+# 7. 🔞 IMPORTANTE: Attiva verifica età (OBBLIGATORIO)
+# WP Admin → Plugin → Attiva "Gazzini Age Verification"
 ```
 
 ### Documentazione Completa
 
-Per istruzioni dettagliate, consulta **[SETUP.md](SETUP.md)**
+Per istruzioni dettagliate, consulta:
+- **[SETUP.md](SETUP.md)** - Setup completo WordPress
+- **[INSTALLAZIONE.md](INSTALLAZIONE.md)** - Installazione su WP esistente
+- **[VERIFICA-ETA.md](VERIFICA-ETA.md)** - 🔞 Verifica età (OBBLIGATORIO)
 
 ## 🎨 Brand Identity
 
@@ -174,6 +185,7 @@ Copper:      #b87333  /* Hover effects */
 ### Obbligatori
 - **WooCommerce** - E-commerce
 - **Gazzini Products Setup** - Setup automatico prodotti
+- **Gazzini Age Verification** - 🔞 Verifica età +18 (OBBLIGATORIO per alcolici)
 
 ### Consigliati
 - Contact Form 7 - Form contatti avanzati
