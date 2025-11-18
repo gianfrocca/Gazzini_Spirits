@@ -23,6 +23,9 @@ wp-content/upgrade/
 # WordPress Plugins (except custom ones)
 wp-content/plugins/*
 !wp-content/plugins/gazzini-products-setup.php
+!wp-content/plugins/gazzini-age-verification.php
+!wp-content/plugins/age-verification.css
+!wp-content/plugins/age-verification.js
 !wp-content/plugins/.gitkeep
 
 # WordPress Themes (except our custom theme)
